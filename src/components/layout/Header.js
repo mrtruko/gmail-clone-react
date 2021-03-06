@@ -100,9 +100,9 @@ const SearchBarWrapper = styled.div`
 
 
 const IconsWrapper = styled.div`
-    margin-left: 8px
+    margin-left: 8px;
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: auto auto auto auto;
 
     .MuiSvgIcon-root {
         color: #5f6368;
